@@ -1,0 +1,16 @@
+name: EcoTown
+version: '1.0'
+
+main: me.tleung.ecoTown.EcoTown
+api-version: '26.2'
+folia-supported: true
+
+authors: [ TLeung ]
+
+depend: [EcoChain]
+softdepend: [PlaceholderAPI]
+
+commands:
+  town:
+    description: EcoTown 生態城鎮管理指令
+    usage: /town <create|claim|unclaim|disband|invite|accept|setspawn|spawn> [參數]
